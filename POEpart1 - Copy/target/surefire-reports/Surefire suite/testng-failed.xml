@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.mycompany.poepart1.MessagesNGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testCreateMessageHash"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- com.mycompany.poepart1.MessagesNGTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
