@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.mycompany.poepart1.RegistrationNGTest" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.mycompany.poepart1.MessagesNGTest" class="method navigator-link" hash-for-method="testReturnTotalMessages">testReturnTotalMessages</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -119,14 +119,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.mycompany.poepart1.RegistrationNGTest</span>
+              <span class="class-name">com.mycompany.poepart1.MessagesNGTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testRegisterUser">
-                  </a> <!-- testRegisterUser -->
-                  <span class="method-name">testRegisterUser</span>
+                  <a name="testReturnTotalMessages">
+                  </a> <!-- testReturnTotalMessages -->
+                  <span class="method-name">testReturnTotalMessages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +147,7 @@
       &lt;/method-selector&gt;
     &lt;/method-selectors&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.mycompany.poepart1.RegistrationNGTest&quot;/&gt;
+      &lt;class name=&quot;com.mycompany.poepart1.MessagesNGTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -189,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testRegisterUser')
-data.setCell(0, 2, 'com.mycompany.poepart1.RegistrationNGTest')
-data.setCell(0, 3, 43);
+data.setCell(0, 1, 'testReturnTotalMessages')
+data.setCell(0, 2, 'com.mycompany.poepart1.MessagesNGTest')
+data.setCell(0, 3, 11);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -211,19 +211,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.mycompany.poepart1.RegistrationNGTest</span>
+              <span class="ignored-class-name">com.mycompany.poepart1.MessagesNGTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testCheckPasswordComplexity</span>
+                <span class="ignored-method-name">testSentMessage</span>
                 <br/>
-                <span class="ignored-method-name">testCheckCellPhoneNumber</span>
+                <span class="ignored-method-name">testPrintMessages</span>
                 <br/>
-                <span class="ignored-method-name">testRegisterstatus</span>
+                <span class="ignored-method-name">testCreateMessageHash</span>
                 <br/>
-                <span class="ignored-method-name">testCheckUserName</span>
+                <span class="ignored-method-name">testSendingMessage</span>
+                <br/>
+                <span class="ignored-method-name">testGenerateMessageID</span>
+                <br/>
+                <span class="ignored-method-name">testCheckRecipientCell</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -235,22 +239,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mycompany.poepart1.RegistrationNGTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.mycompany.poepart1.MessagesNGTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">8 ms</span>
+                <span class="method-start">10 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testRegisterUser</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">testReturnTotalMessages</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

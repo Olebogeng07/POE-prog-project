@@ -3,14 +3,14 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="com.mycompany.poepart1.RegistrationNGTest">
+      <class name="com.mycompany.poepart1.MessagesNGTest">
         <methods>
-          <include name="setUpMethod"/>
-          <include name="tearDownMethod"/>
-          <include name="testRegisterUser"/>
           <include name="setUpClass"/>
+          <include name="testCreateMessageHash"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
         </methods>
-      </class> <!-- com.mycompany.poepart1.RegistrationNGTest -->
+      </class> <!-- com.mycompany.poepart1.MessagesNGTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
